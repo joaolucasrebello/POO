@@ -1,3 +1,5 @@
+package POO_AULA.Lista1.Questao1;
+
 public class Pessoa {
     double altura;
     double peso;

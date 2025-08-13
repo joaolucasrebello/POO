@@ -1,3 +1,5 @@
+package POO_AULA.Lista1.Questao1;
+
 public class App {
     public static void main(String[] args) {
         Pessoa p = new Pessoa();
