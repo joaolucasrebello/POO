@@ -1,11 +1,28 @@
-package POO_AULA.Lista2.Questao1;
+package POO_AULA.Lista2.Questao2;
+
 
 public class App {
     public static void main(String[] args) {
         ContaBancaria conta1 = new ContaBancaria();
-        conta1.setTitular("João");
-        conta1.setSaldo(1000.0);    
-        System.out.println("Titular: " + conta1.getTitular());
-        System.out.println("Saldo inicial: " + conta1.getSaldo());
+        conta1.setTitular("Kanye");
+        conta1.depositar(1000.0);
+        conta1.depositar(700.0);
+        System.out.println("Saldo de " + conta1.getTitular() + ": " + conta1.getSaldo());
+   
+        ContaBancaria conta2 = new ContaBancaria();
+        conta2.setTitular("West");
+        conta2.depositar(5000.0);
+        System.out.println("Saldo de " + conta2.getTitular() + ": " + conta2.getSaldo());
+        conta2.sacar(3000.0);
+        System.out.println("Saldo de " + conta2.getTitular() + " após saque: " + conta2.getSaldo());
+
+        conta2.transferir(conta1, 1800.0);
+        System.out.println("Saldo de " + conta1.getTitular() + " após transferência: " + conta1.getSaldo());
+        System.out.println("Saldo de " + conta2.getTitular() + " após transferência: " + conta2.getSaldo());
+
+
+
+
     }
+
 }
