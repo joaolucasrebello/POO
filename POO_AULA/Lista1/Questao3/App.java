@@ -24,7 +24,7 @@ public class App {
                   scanner.nextLine();
 
                   Pessoa p3 = new Pessoa();
-                 p3.nome = "Pessoa 3";
+                  p3.nome = "Pessoa 3";
                   System.out.print("Digite a altura (em metros): ");
                   p3.altura = scanner.nextDouble();
                   scanner.nextLine();
