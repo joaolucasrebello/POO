@@ -10,15 +10,9 @@ A disciplina de POO tem como objetivo introduzir e aprofundar conceitos da Progr
 
 Java ☕
 
-IDEs: NetBeans / IntelliJ / VSCode
+IDEs: VSCode
 
 Git & GitHub para controle de versão
-
-📂 Estrutura do Repositório
-📁 Exercicios-POO/
- ├── 📂 AulaXX/            # Exercícios práticos por aula
- ├── 📂 Trabalhos/         # Projetos avaliativos
- ├── README.md             # Documentação do repositório
 
 📖 Conteúdos Abordados
 
