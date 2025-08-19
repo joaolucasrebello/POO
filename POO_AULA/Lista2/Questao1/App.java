@@ -12,7 +12,7 @@ public class App{
             pessoas[i].setNome(scanner.nextLine());
 
             System.out.print("Digite a altura (em metros): ");
-            pessoas[i].setAltura(scanner.nextDouble());
+            pessoas[i].setAltura(scanner.nextDouble()); 
             scanner.nextLine(); 
 
             System.out.print("Digite o peso (em kg): ");

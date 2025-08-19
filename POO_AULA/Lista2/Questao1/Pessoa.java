@@ -9,7 +9,7 @@ public class Pessoa{
             return nome;
       }
       public void setNome(String nome) {
-               if (nome == null || nome.isEmpty()) {
+               if (nome == null || nome.isEmpty() || nome.isBlank()) {
                 throw new IllegalArgumentException("Nome deve ser definido.");
             }
             if (nome.length() < 3) {
@@ -33,8 +33,8 @@ public class Pessoa{
             if (altura > 3) {
                 throw new IllegalArgumentException("Altura não pode ser maior que 3 metros.");
             }
-            if (altura < 0.5) {
-                throw new IllegalArgumentException("Altura não pode ser menor que 0.5 metros.");
+            if (altura < 0.2) {
+                throw new IllegalArgumentException("Altura não pode ser menor que 0.2 metros.");
             }
             if (Double.isNaN(altura) || Double.isInfinite(altura)) {
                 throw new IllegalArgumentException("Altura deve ser um número válido.");

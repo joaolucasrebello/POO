@@ -3,13 +3,23 @@ package POO_AULA.Lista2.Questao2;
 public class ContaBancaria {
     private String titular;
     private double saldo;
+    private double numero;
 
     public String getTitular() {
         return titular;
     }
     public void setTitular(String titular) {
         this.titular = titular;
+
     }
+
+    public double getNumero() {
+        return numero;
+    }
+    public void setnumero(double numero) {
+        this.numero = numero;
+    }
+    
     public double getSaldo() {
         return saldo;
     }
