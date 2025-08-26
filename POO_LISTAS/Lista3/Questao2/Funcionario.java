@@ -1,8 +1,9 @@
-package POO_LISTAS.Lista3.Questao1;
+package POO_LISTAS.Lista3.Questao2;
 
 public class Funcionario {
     private String nome;
     private double salario;
+
 
     public String getNome() {
         return nome;
