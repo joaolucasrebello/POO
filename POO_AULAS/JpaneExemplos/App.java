@@ -1,8 +1,6 @@
-package POO_AULAS;
+package POO_AULAS.JpaneExemplos;
 
 import javax.swing.JOptionPane;
-
-import POO_AULAS.JpaneExemplos.Pessoa;
 
 public class App {
     public static void main(String[] args) {
