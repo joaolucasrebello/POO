@@ -1,4 +1,4 @@
-package POO_AULA.Lista2.Questao2;
+package POO_LISTAS.Lista2.Questao2;
 
 public class ContaBancaria {
     private String titular;

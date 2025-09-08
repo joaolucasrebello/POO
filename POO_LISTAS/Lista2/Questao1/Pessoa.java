@@ -1,4 +1,4 @@
-package POO_AULA.Lista2.Questao1;
+package POO_LISTAS.Lista2.Questao1;
 
 public class Pessoa{
       private String nome;
