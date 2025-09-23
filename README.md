@@ -36,7 +36,7 @@ Padrões de Projeto (básico)
 
 Clone este repositório:
 
-git clone https://github.com/SeuUsuario/POO.git
+git clone https://github.com/joaolucasrebello/POO.git
 
 
 Abra o projeto na sua IDE de preferência.
